@@ -116,7 +116,7 @@ body {
 
 .main-banner {
   min-height: 320px;
-  background-image: url(/img/kv.jpg);
+  background-image: url(../img/kv.jpg);
   background-size: cover;
   background-position: center;
   padding: 40px 0;
@@ -349,7 +349,7 @@ body {
 }
 
 .slick-arrow.slick-prev:before {
-  content: url(/img/left.svg);
+  content: url(../img/left.svg);
   position: absolute;
   right: 17px;
   top: 11px;
@@ -357,7 +357,7 @@ body {
 
 .slick-arrow.slick-next:before {
   padding-right: 2px;
-  content: url(/img/right.svg);
+  content: url(../img/right.svg);
   position: absolute;
   right: 14px;
   top: 11px;
