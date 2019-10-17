@@ -1,0 +1,265 @@
+body
+ font-family: Roboto,Arial,Helvetica,sans-serif
+ width: 100%
+ color: #212529
+ max-width: 1160px
+ margin: auto
+.row
+ width: 100%
+.container
+ padding: 0 40px 0 40px
+.logo img
+ width: 180px
+ height: 50px
+.header
+ margin: 40px 0
+.btn
+ height: 20px
+ padding: 14px 23px
+ min-height: 2.75rem
+ line-height: normal
+ font-size: 1rem
+ font-weight: 500
+ margin-left: 1rem
+ margin-right: 0
+ border: 1px solid #fff 
+ &:first-child
+  margin-left: 0 !important
+.btn-active
+ background: #00b140
+ border: 1px solid #00b140 
+ border-radius: 3px
+ color: #fff !important
+.btn-white
+ background: #fff
+ border: 1px solid #fff
+ border-radius: 3px
+ color: #00b140
+ text-decoration: none
+.header-navbar
+ height: 60px
+ list-style-type: none
+ margin: 0
+ padding: 0
+ li
+  display: inline-block
+  a
+   color: #4a4a4a
+   font-size: 1rem
+   font-size: 18px
+   line-height: 21px
+   font-weight: 500
+   text-decoration: none
+  .btn:hover
+   background: #00b140
+   border: 1px solid #00b140 
+   border-radius: 3px
+   color: #fff
+.breadscrum
+ background-color: #f6f6f6
+ border-top: solid 3px #dddddd
+ ol
+  list-style-type: none
+  display: inline-flex
+  padding-left: 20px
+  li
+   padding-left: 20px
+   color: #9b9b9b
+   &:first-child
+    padding-left: 0px
+    &:before
+     content: ''
+     padding-left: 0px !important
+   &:before
+    font-size: 22px
+    content: ">"
+    padding-right: 20px  
+.main-banner
+ min-height: 320px
+ background-image: url(/img/kv.jpg)
+ background-size: cover
+ background-position: center
+ padding: 40px 0
+ .card
+  background-color: #fefefe
+  color: #666
+  width: 50%
+  min-height: 200px
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.1)
+  border-radius: 4px
+  font-size: 1rem
+  padding: 2rem 0
+  background: #fff
+  padding: 2em
+ .green-card
+  max-width: 400px
+  background-color: #00b140
+  color: #fff 
+  .cards-title
+   color: #fff
+  .btn
+   margin-top: 22px
+   display: inline-block
+   padding: 10px 20px
+ .description
+  .btn
+   margin-left: 0 !important
+  ul
+   padding: 0
+   list-style: none
+   li
+    padding: 6px 0
+    line-height: 20px
+    border-bottom: 1px solid #eaeaea
+    &:last-child
+     border-bottom: none
+.note
+ display: block
+ margin-top: 1rem
+ color: #fff
+ font-size: 0.75rem
+ line-height: 2rem
+.quad-cards
+ display: flex
+ flex-direction: row
+ flex-wrap: wrap
+ justify-content: space-between
+ margin: -15px
+ .card-white  
+  margin: 15px
+.card-white
+ width: calc(50% - 30px)
+ box-shadow: 0 1px 4px 0 rgba(16,16,16,.3)
+ border-radius: 4px
+ padding: 2rem 0
+ background: #fff
+ position: relative
+ background-color: #fefefe
+ color: #666
+ padding: 2em
+ 
+.cards-together
+ width: 100%
+ box-shadow: 0 1px 4px 0 rgba(16,16,16,.3)
+ display: flex
+ flex-direction: row
+ flex-wrap: wrap
+ .cards-together-element
+  width: 50%
+  background-color: white
+  padding: 50px 50px 75px 50px
+  &:last-child
+     border-top: solid 1px #e7e7e7
+     border-left: solid 1px #e7e7e7
+  &:first-child
+     border-right: solid 1px #e7e7e7
+     border-bottom: solid 1px #e7e7e7
+  img
+   padding-bottom: 50px
+.title
+ font-size: 24px
+ color: #4e4a4a
+ padding: 40px 0
+.cards-title
+ font-size: 24px
+ color: #4e4a4a
+ padding: 0
+.title-big
+ font-size: 24px
+.text-center
+ text-align: center
+
+.slick-slider
+ width: 100%
+ height: 427px
+ margin-top: 2px
+ margin-bottom: 4px
+ padding: 0 10px
+ float: left
+ .slide
+  box-shadow: 0 1px 4px 0 rgba(16,16,16,0.3)
+  border-radius: 4px
+  background: #fff
+  background-color: #fefefe
+  color: #666
+  margin-bottom: 5px
+  .top-image
+   background-color: #f5f5f5
+   border-radius: 4px 4px 0 0
+   padding: 28px
+  .bot-description
+   padding: 28px 0
+   font-size: 18px
+ img
+  margin: 0 auto
+  max-width: 340px
+.slick-prev, .slick-next
+ top: 92%
+ z-index: 1500
+ background: #FFF
+ width: 2.75rem
+ height: 2.75rem
+ line-height: 2.75rem
+ border-radius: 22px
+ cursor: pointer
+ box-shadow: 0 1px 4px 0 rgba(0,0,0,.1)
+ &:hover
+  background-color: green
+.slick-next
+ right: 60px
+
+.slick-prev
+ left: 60px
+.slick-dots
+ margin-bottom: 48px
+ li
+  display: inline-flex
+  width: 12px
+  height: 12px
+  border: 2px solid #d5d5d5
+  border-radius: 6px
+  margin: 0 16px
+  cursor: pointer
+ li.slick-active 
+   background: #00b140
+   border: 2px solid #00b140
+.slick-arrow.slick-prev:before
+ content: url(/img/left.svg)
+ position: absolute
+ right: 17px
+ top: 11px
+.slick-arrow.slick-next:before
+ padding-right: 2px
+ content: url(/img/right.svg)
+ position: absolute
+ right: 14px
+ top: 11px
+.title-description
+ margin-top: 40px
+ padding: 0
+ font-size: 24px
+.bold
+ font-weight: bold
+
+@media (max-width: 599px)
+ .breadscrum
+  display: none
+ .main-banner .green-card
+  width: 100%
+ .quad-cards .card-white 
+  width: 100%
+ .cards-together .cards-together-element
+  width: 100% 
+  border-bottom: solid 1px #e7e7e7
+  &:first-child
+   border-right: none
+  &:last-child
+   border-bottom: none 
+   border-left: none
+   border-top: none
+ .btn
+  padding: 14px 15px
+ .slick-next 
+  right: 20px
+ .slick-prev 
+  left: 20px;
